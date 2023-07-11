@@ -1,8 +1,13 @@
-# Pana
+<h2 align="center">Pana - Pick a Name Already</h2>
 
-Pana, or "Pick a Name Already", is a CLI and module built to verify if a package name or username is available from common package managers.
+<p align="center">
+  Check if a package or username is available from some of the most popular package managers.
+</p>
+
 
 ## Install
+
+Pana is available from `pip`:
 
 ```bash
 pip install pana
@@ -10,16 +15,20 @@ pip install pana
 
 ## Package Managers
 
-:white_check_mark: - Actively supported
+:white_check_mark: - Actively supported & tested
 
-:warning: - In Development
+:warning: - In development
 
-| Package Manager                 | Status               |
-|---------------------------------|----------------------|
-| [PyPI](https://pypi.org/)       |  :white_check_mark:  |
-| [npm](https://www.npmjs.com/)   |  :white_check_mark:  |
-| [NuGet](https://www.nuget.org/) |  :white_check_mark:  |
-| [crates](https://crates.io/)    |  :warning:           |
+:question: - Not started, but I'd like to eventually get them added
+
+| Package Manager                                              | Status               |
+|--------------------------------------------------------------|----------------------|
+| [PyPI](https://pypi.org/)                                    |  :white_check_mark:  |
+| [npm](https://www.npmjs.com/)                                |  :white_check_mark:  |
+| [NuGet](https://www.nuget.org/)                              |  :white_check_mark:  |
+| [crates](https://crates.io/)                                 |  :warning:           |
+| [packagist](https://packagist.org/)                          |  :question:          |
+| [VSCode Marketplace](https://marketplace.visualstudio.com/)  |  :question:          |
 
 ## Examplea
 
@@ -30,8 +39,17 @@ from pana import Pana
 # Print both lists to stdout
 print(Pana.check_pkg("pana"))
 print(Pana.check_user("azazelm3dj3d"))
+
+# Example output
+"""
+[
+    ['pypi', True],
+    ['npm', True],
+    ['nuget', False]
+]
+"""
+
 ```
-Note: *Currently prints to stdout*
 
 ### CLI
 
@@ -44,5 +62,5 @@ pana -p pana
 Search for a username
 
 ```bash
-pana -u pana
+pana -u azazelm3dj3d
 ```
