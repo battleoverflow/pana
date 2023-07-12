@@ -33,8 +33,7 @@ class Pana:
         pkg_config = {
             "pypi": f"https://pypi.org/project/{pkg_name}",
             "npm": f"https://www.npmjs.com/package/{pkg_name}",
-            "nuget": f"https://www.nuget.org/packages/{pkg_name}",
-            "crates": f"https://crates.io/crates/{pkg_name}"
+            "nuget": f"https://www.nuget.org/packages/{pkg_name}"
         }
 
         pkg_arr = []
@@ -61,20 +60,19 @@ class Pana:
 
     def check_user(user: str) -> list:
 
-        pkg_config = {
+        user_config = {
             "pypi": f"https://pypi.org/user/{user}",
             "npm": f"https://www.npmjs.com/~{user}",
-            "nuget": f"https://www.nuget.org/profiles/{user}",
-            "crates": f"https://crates.io/users/{user}"
+            "nuget": f"https://www.nuget.org/profiles/{user}"
         }
 
         pkg_arr = []
 
-        for p in pkg_config:
+        for p in user_config:
             if args.user is not None:
-                print(f"\n{Fore.BLUE}Checking...{Style.RESET_ALL} {pkg_config[p]}")
+                print(f"\n{Fore.BLUE}Checking...{Style.RESET_ALL} {user_config[p]}")
             
-            response = requests.get(pkg_config[p])
+            response = requests.get(user_config[p])
 
             if response.status_code == 200:
                 if args.user is not None:

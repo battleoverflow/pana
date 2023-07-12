@@ -13,7 +13,7 @@ setuptools.setup(
     name = "pana",
     version = "0.1.0",
     author = "azazelm3dj3d",
-    description = "Pana is a CLI and module built to verify if a package name or username is available from common package managers.",
+    description = "Pana is a CLI and module built to check if a package name or username is available from common package managers.",
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/azazelm3dj3d/pana",
@@ -22,9 +22,7 @@ setuptools.setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
-    packages = [
-        "pana"
-    ],
+    py_modules=['pana'],
     install_requires=[
         "requests",
         "colorama"
