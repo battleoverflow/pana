@@ -26,8 +26,8 @@ pip install pana
 | [PyPI](https://pypi.org/)                                    |  :white_check_mark:  |
 | [npm](https://www.npmjs.com/)                                |  :white_check_mark:  |
 | [NuGet](https://www.nuget.org/)                              |  :white_check_mark:  |
-| [crates](https://crates.io/)                                 |  :question:           |
-| [packagist](https://packagist.org/)                          |  :question:          |
+| [crates](https://crates.io/)                                 |  :question:          |
+| [Packagist](https://packagist.org/)                          |  :question:          |
 | [VSCode Marketplace](https://marketplace.visualstudio.com/)  |  :question:          |
 
 ## Examplea
