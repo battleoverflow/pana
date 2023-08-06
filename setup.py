@@ -11,7 +11,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "pana",
-    version = "0.1.0",
+    version = "0.2.0",
     author = "azazelm3dj3d",
     description = "Pana is a CLI and module built to check if a package name or username is available from common package managers.",
     long_description = long_description,

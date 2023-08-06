@@ -15,20 +15,12 @@ pip install pana
 
 ## Package Managers
 
-:white_check_mark: - Actively supported & tested
-
-:warning: - In development
-
-:question: - Not started, but I'd like to eventually get them added
-
 | Package Manager                                              | Status               |
 |--------------------------------------------------------------|----------------------|
 | [PyPI](https://pypi.org/)                                    |  :white_check_mark:  |
 | [npm](https://www.npmjs.com/)                                |  :white_check_mark:  |
 | [NuGet](https://www.nuget.org/)                              |  :white_check_mark:  |
-| [crates](https://crates.io/)                                 |  :question:          |
-| [Packagist](https://packagist.org/)                          |  :question:          |
-| [VSCode Marketplace](https://marketplace.visualstudio.com/)  |  :question:          |
+| [crates](https://crates.io/)                                 |  :white_check_mark:  |
 
 ## Examplea
 
@@ -43,12 +35,12 @@ print(Pana.check_user("azazelm3dj3d"))
 # Example output
 """
 [
-    ['pypi', True],
-    ['npm', True],
-    ['nuget', False]
+  ['pypi', False],
+  ['npm', False],
+  ['nuget', True],
+  ['crates/docs', False]
 ]
 """
-
 ```
 
 ### CLI
