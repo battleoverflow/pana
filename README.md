@@ -30,7 +30,7 @@ from pana import Pana
 
 # Print both lists to stdout
 print(Pana.check_pkg("pana"))
-print(Pana.check_user("azazelm3dj3d"))
+print(Pana.check_user("battleoverflow"))
 
 # Example output
 """
@@ -54,5 +54,5 @@ pana -p pana
 Search for a username
 
 ```bash
-pana -u azazelm3dj3d
+pana -u battleoverflow
 ```

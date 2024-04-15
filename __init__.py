@@ -1,5 +1,5 @@
 """
-    Project: Pana (https://github.com/azazelm3dj3d/pana)
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Project: Pana (https://github.com/battleoverflow/pana)
+    Author: battleoverflow (https://github.com/battleoverflow)
     License: BSD 2-Clause
 """

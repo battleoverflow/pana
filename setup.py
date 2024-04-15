@@ -1,6 +1,6 @@
 """
-    Project: Pana (https://github.com/azazelm3dj3d/pana)
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Project: Pana (https://github.com/battleoverflow/pana)
+    Author: battleoverflow (https://github.com/battleoverflow)
     License: BSD 2-Clause
 """
 
@@ -11,12 +11,12 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "pana",
-    version = "0.2.0",
-    author = "azazelm3dj3d",
+    version = "0.2.1",
+    author = "battleoverflow",
     description = "Pana is a CLI and module built to check if a package name or username is available from common package managers.",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/azazelm3dj3d/pana",
+    url = "https://github.com/battleoverflow/pana",
     classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",

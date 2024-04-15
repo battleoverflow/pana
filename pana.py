@@ -1,6 +1,6 @@
 """
-    Project: Pana (https://github.com/azazelm3dj3d/pana)
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Project: Pana (https://github.com/battleoverflow/pana)
+    Author: battleoverflow (https://github.com/battleoverflow)
     License: BSD 2-Clause
 """
 
@@ -13,7 +13,7 @@ parser.add_argument('-p', '--pkg', help="Name of the package", default=None, req
 parser.add_argument('-u', '--user', help="Name of the username", default=None, required=False)
 args = parser.parse_args()
 
-version = "0.2.0"
+version = "0.2.1"
 
 banner = \
 f"""
@@ -23,7 +23,7 @@ f"""
 |  __/\_____|_| |_\_____|
 |_|
 
-   azazelm3dj3d | v{version}
+   battleoverflow | v{version}
 """
 
 class Pana:
